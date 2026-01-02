@@ -11,20 +11,20 @@ with simple, interpretable ML models (Random Forest / Decision Tree) and a rule-
 
 #Repository Structure
 tea-climate-analyzer/
-├─ data/
-│  └─ Indian_Climate_Dataset_2024_2025.csv
-├─ notebooks/
-│  └─ eda.ipynb
-├─ src/
-│  ├─ features.py         # feature engineering and CSI label creation
-│  ├─ modeling.py         # model training / evaluation / save/load
-│  └─ app.py              # streamlit app
-├─ models/
-│  ├─ rf_risk.pkl
-│  └─ dt_stress.pkl
-├─ requirements.txt
-├─ README.md              # this file
-└─ LICENSE
+—> data/
+    → Indian_Climate_Dataset_2024_2025.csv
+—> notebooks/
+    → eda.ipynb
+—> src/
+    → features.py         # feature engineering and CSI label creation
+    → modeling.py         # model training / evaluation / save/load
+    → app.py              # streamlit app
+—> models/
+    → rf_risk.pkl
+    → dt_stress.pkl
+—> requirements.txt
+—> README.md              # this file
+—> LICENSE
 
 #Dataset
 data/Indian_Climate_Dataset_2024_2025.csv
